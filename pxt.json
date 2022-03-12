@@ -1,0 +1,37 @@
+{
+    "name": "paper hero 3d(plus turn based",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "edge-connector": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "darts": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.0",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.11",
+        "Achievements": "github:UnsignedArduino/Achievements#a578c77dd75467b9b0b5238a9a31c5fdc427cb9d",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "arcade-premium-life": "github:jwunderl/arcade-premium-life#v0.2.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.8.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
